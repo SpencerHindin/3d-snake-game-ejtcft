@@ -1,8 +1,9 @@
+import { constructor } from "react";
 import WorldModel from "./WorldModel";
 
 class GameController() {
   world: WorldModel;
-  constructor() {
+  constructor(g: game) {
   this.world = WorldModel;
   }
   player1(){
